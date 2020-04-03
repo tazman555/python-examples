@@ -15,4 +15,7 @@ from  awesome import cool
 
 # local Namespace
 print(locals())
-print(locals() == globals())
+print(locals() == globals()) # local and gloabl are the same as we are at the top level
+
+# Installing Python packages from github
+# pip install -e giturl
